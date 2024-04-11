@@ -1,5 +1,15 @@
 # wrangler
 
+## 3.51.0
+
+### Minor Changes
+
+- [#5172](https://github.com/cloudflare/workers-sdk/pull/5172) [`fbe1c9c`](https://github.com/cloudflare/workers-sdk/commit/fbe1c9c816f2b5774060d721ff830e70d9b7d29f) Thanks [@GregBrimble](https://github.com/GregBrimble)! - feat: Allow marking external modules (with `--external`) to avoid bundling them when building Pages Functions
+
+  It's useful for Pages Plugins which want to declare a peer dependency.
+
+- [#5398](https://github.com/cloudflare/workers-sdk/pull/5398) [`21878f5`](https://github.com/cloudflare/workers-sdk/commit/21878f5338e4736fb263f50e4b5ac3856cade28f) Thanks [@garrettgu10](https://github.com/garrettgu10)! - Support comments in Python requirements.txt file
+
 ## 3.50.0
 
 ### Minor Changes
